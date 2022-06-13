@@ -1,0 +1,492 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6B23C2C4257AF426008597AB /* SingleShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B23C2C3257AF426008597AB /* SingleShopViewController.swift */; };
+		6B56BCF725798D9100BBB31C /* AddTransactionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B56BCF625798D9100BBB31C /* AddTransactionViewController.swift */; };
+		6B622797257AAB4600E55744 /* DropDownCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B622795257AAB4600E55744 /* DropDownCell.swift */; };
+		6B622798257AAB4600E55744 /* DropDownCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B622796257AAB4600E55744 /* DropDownCell.xib */; };
+		6B6227A2257AC4AF00E55744 /* AddShopViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B6227A1257AC4AF00E55744 /* AddShopViewController.swift */; };
+		6B66AFF52577C1230040A813 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B66AFF42577C1230040A813 /* AppDelegate.swift */; };
+		6B66AFF72577C1230040A813 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B66AFF62577C1230040A813 /* SceneDelegate.swift */; };
+		6B66AFFC2577C1230040A813 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B66AFFA2577C1230040A813 /* Main.storyboard */; };
+		6B66B0012577C1300040A813 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6B66B0002577C1300040A813 /* Assets.xcassets */; };
+		6B66B0042577C1300040A813 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6B66B0022577C1300040A813 /* LaunchScreen.storyboard */; };
+		6B66B00C2577C5000040A813 /* MyShopsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B66B00B2577C5000040A813 /* MyShopsListViewController.swift */; };
+		6B66B0122577EED20040A813 /* shopsModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 6B66B0102577EED20040A813 /* shopsModel.xcdatamodeld */; };
+		6B66B0152578FE160040A813 /* shopsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B66B0132578FE160040A813 /* shopsTableViewCell.swift */; };
+		6B66B0162578FE160040A813 /* shopsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B66B0142578FE160040A813 /* shopsTableViewCell.xib */; };
+		6B66B01825794EBD0040A813 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B66B01725794EBC0040A813 /* MapViewController.swift */; };
+		6B66B01A257965DA0040A813 /* TransactionsListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B66B019257965DA0040A813 /* TransactionsListViewController.swift */; };
+		6B9C1185257C836800037750 /* transTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B9C1183257C836800037750 /* transTableViewCell.swift */; };
+		6B9C1186257C836800037750 /* transTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6B9C1184257C836800037750 /* transTableViewCell.xib */; };
+		6BFEC6D0257D4FD00061C447 /* UIImage+Resize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BFEC6CF257D4FD00061C447 /* UIImage+Resize.swift */; };
+		6BFEC6D2257D50990061C447 /* AlertController+Image.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6BFEC6D1257D50990061C447 /* AlertController+Image.swift */; };
+		AA70EBEE528B93C391D476FD /* Pods_manageMyMoney.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F902CAABA255088C3EB1FE99 /* Pods_manageMyMoney.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		05370EDA4EB8B7E42004B348 /* Pods-manageMyMoney.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-manageMyMoney.release.xcconfig"; path = "Target Support Files/Pods-manageMyMoney/Pods-manageMyMoney.release.xcconfig"; sourceTree = "<group>"; };
+		285332C8A04542C81820EAD7 /* Pods-manageMyMoney.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-manageMyMoney.debug.xcconfig"; path = "Target Support Files/Pods-manageMyMoney/Pods-manageMyMoney.debug.xcconfig"; sourceTree = "<group>"; };
+		6B23C2C3257AF426008597AB /* SingleShopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SingleShopViewController.swift; sourceTree = "<group>"; };
+		6B56BCF625798D9100BBB31C /* AddTransactionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddTransactionViewController.swift; sourceTree = "<group>"; };
+		6B622795257AAB4600E55744 /* DropDownCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DropDownCell.swift; sourceTree = "<group>"; };
+		6B622796257AAB4600E55744 /* DropDownCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DropDownCell.xib; sourceTree = "<group>"; };
+		6B6227A1257AC4AF00E55744 /* AddShopViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddShopViewController.swift; sourceTree = "<group>"; };
+		6B66AFF42577C1230040A813 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6B66AFF62577C1230040A813 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		6B66AFFB2577C1230040A813 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6B66B0002577C1300040A813 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		6B66B0032577C1300040A813 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		6B66B0052577C1300040A813 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6B66B00B2577C5000040A813 /* MyShopsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyShopsListViewController.swift; sourceTree = "<group>"; };
+		6B66B0112577EED20040A813 /* shopModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = shopModel.xcdatamodel; sourceTree = "<group>"; };
+		6B66B0132578FE160040A813 /* shopsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shopsTableViewCell.swift; sourceTree = "<group>"; };
+		6B66B0142578FE160040A813 /* shopsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = shopsTableViewCell.xib; sourceTree = "<group>"; };
+		6B66B01725794EBC0040A813 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		6B66B019257965DA0040A813 /* TransactionsListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransactionsListViewController.swift; sourceTree = "<group>"; };
+		6B9C1183257C836800037750 /* transTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = transTableViewCell.swift; sourceTree = "<group>"; };
+		6B9C1184257C836800037750 /* transTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = transTableViewCell.xib; sourceTree = "<group>"; };
+		6BFEC6CF257D4FD00061C447 /* UIImage+Resize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIImage+Resize.swift"; sourceTree = "<group>"; };
+		6BFEC6D1257D50990061C447 /* AlertController+Image.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AlertController+Image.swift"; sourceTree = "<group>"; };
+		81CF5F7125A235E2002A7071 /* manageMyMoney.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = manageMyMoney.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F902CAABA255088C3EB1FE99 /* Pods_manageMyMoney.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_manageMyMoney.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6B66AFEE2577C1230040A813 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AA70EBEE528B93C391D476FD /* Pods_manageMyMoney.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0893273F1376AF46210CF445 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F902CAABA255088C3EB1FE99 /* Pods_manageMyMoney.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6B23C2C5257B0182008597AB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		6B66AFE82577C1230040A813 = {
+			isa = PBXGroup;
+			children = (
+				6B66AFF32577C1230040A813 /* manageMyMoney */,
+				7418C7C88C9DC3F45AAC1E07 /* Pods */,
+				0893273F1376AF46210CF445 /* Frameworks */,
+				81CF5F7125A235E2002A7071 /* manageMyMoney.app */,
+			);
+			sourceTree = "<group>";
+		};
+		6B66AFF32577C1230040A813 /* manageMyMoney */ = {
+			isa = PBXGroup;
+			children = (
+				6BFEC6CE257D4FAF0061C447 /* Extensions */,
+				6B23C2C5257B0182008597AB /* Model */,
+				6B66AFF42577C1230040A813 /* AppDelegate.swift */,
+				6B66AFF62577C1230040A813 /* SceneDelegate.swift */,
+				6B66B019257965DA0040A813 /* TransactionsListViewController.swift */,
+				6B56BCF625798D9100BBB31C /* AddTransactionViewController.swift */,
+				6B66B00B2577C5000040A813 /* MyShopsListViewController.swift */,
+				6B6227A1257AC4AF00E55744 /* AddShopViewController.swift */,
+				6B23C2C3257AF426008597AB /* SingleShopViewController.swift */,
+				6B66B01725794EBC0040A813 /* MapViewController.swift */,
+				6B66B0132578FE160040A813 /* shopsTableViewCell.swift */,
+				6B66B0142578FE160040A813 /* shopsTableViewCell.xib */,
+				6B9C1183257C836800037750 /* transTableViewCell.swift */,
+				6B9C1184257C836800037750 /* transTableViewCell.xib */,
+				6B622795257AAB4600E55744 /* DropDownCell.swift */,
+				6B622796257AAB4600E55744 /* DropDownCell.xib */,
+				6B66AFFA2577C1230040A813 /* Main.storyboard */,
+				6B66B0002577C1300040A813 /* Assets.xcassets */,
+				6B66B0022577C1300040A813 /* LaunchScreen.storyboard */,
+				6B66B0052577C1300040A813 /* Info.plist */,
+				6B66B0102577EED20040A813 /* shopsModel.xcdatamodeld */,
+			);
+			path = manageMyMoney;
+			sourceTree = "<group>";
+		};
+		6BFEC6CE257D4FAF0061C447 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				6BFEC6CF257D4FD00061C447 /* UIImage+Resize.swift */,
+				6BFEC6D1257D50990061C447 /* AlertController+Image.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		7418C7C88C9DC3F45AAC1E07 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				285332C8A04542C81820EAD7 /* Pods-manageMyMoney.debug.xcconfig */,
+				05370EDA4EB8B7E42004B348 /* Pods-manageMyMoney.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6B66AFF02577C1230040A813 /* manageMyMoney */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6B66B0082577C1300040A813 /* Build configuration list for PBXNativeTarget "manageMyMoney" */;
+			buildPhases = (
+				DACF2B3CE9BC29EBE2AA5FB9 /* [CP] Check Pods Manifest.lock */,
+				6B66AFED2577C1230040A813 /* Sources */,
+				6B66AFEE2577C1230040A813 /* Frameworks */,
+				6B66AFEF2577C1230040A813 /* Resources */,
+				D7DBFFF7F77981127CB66BD6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = manageMyMoney;
+			productName = manageMyMoney;
+			productReference = 81CF5F7125A235E2002A7071 /* manageMyMoney.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6B66AFE92577C1230040A813 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1160;
+				LastUpgradeCheck = 1220;
+				ORGANIZATIONNAME = kustar;
+				TargetAttributes = {
+					6B66AFF02577C1230040A813 = {
+						CreatedOnToolsVersion = 11.6;
+					};
+				};
+			};
+			buildConfigurationList = 6B66AFEC2577C1230040A813 /* Build configuration list for PBXProject "manageMyMoney" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6B66AFE82577C1230040A813;
+			productRefGroup = 6B66AFE82577C1230040A813;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6B66AFF02577C1230040A813 /* manageMyMoney */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6B66AFEF2577C1230040A813 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B9C1186257C836800037750 /* transTableViewCell.xib in Resources */,
+				6B66B0042577C1300040A813 /* LaunchScreen.storyboard in Resources */,
+				6B66B0012577C1300040A813 /* Assets.xcassets in Resources */,
+				6B66AFFC2577C1230040A813 /* Main.storyboard in Resources */,
+				6B66B0162578FE160040A813 /* shopsTableViewCell.xib in Resources */,
+				6B622798257AAB4600E55744 /* DropDownCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D7DBFFF7F77981127CB66BD6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-manageMyMoney/Pods-manageMyMoney-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-manageMyMoney/Pods-manageMyMoney-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-manageMyMoney/Pods-manageMyMoney-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DACF2B3CE9BC29EBE2AA5FB9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-manageMyMoney-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6B66AFED2577C1230040A813 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B66B0152578FE160040A813 /* shopsTableViewCell.swift in Sources */,
+				6B66AFF52577C1230040A813 /* AppDelegate.swift in Sources */,
+				6B9C1185257C836800037750 /* transTableViewCell.swift in Sources */,
+				6B6227A2257AC4AF00E55744 /* AddShopViewController.swift in Sources */,
+				6BFEC6D2257D50990061C447 /* AlertController+Image.swift in Sources */,
+				6B66B01A257965DA0040A813 /* TransactionsListViewController.swift in Sources */,
+				6B66B00C2577C5000040A813 /* MyShopsListViewController.swift in Sources */,
+				6B622797257AAB4600E55744 /* DropDownCell.swift in Sources */,
+				6B66B01825794EBD0040A813 /* MapViewController.swift in Sources */,
+				6B23C2C4257AF426008597AB /* SingleShopViewController.swift in Sources */,
+				6B56BCF725798D9100BBB31C /* AddTransactionViewController.swift in Sources */,
+				6BFEC6D0257D4FD00061C447 /* UIImage+Resize.swift in Sources */,
+				6B66B0122577EED20040A813 /* shopsModel.xcdatamodeld in Sources */,
+				6B66AFF72577C1230040A813 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6B66AFFA2577C1230040A813 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B66AFFB2577C1230040A813 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6B66B0022577C1300040A813 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6B66B0032577C1300040A813 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6B66B0062577C1300040A813 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6B66B0072577C1300040A813 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6B66B0092577C1300040A813 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 285332C8A04542C81820EAD7 /* Pods-manageMyMoney.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 32A5XL8KCF;
+				INFOPLIST_FILE = manageMyMoney/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = temiedani.manageMyMoney;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6B66B00A2577C1300040A813 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 05370EDA4EB8B7E42004B348 /* Pods-manageMyMoney.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 32A5XL8KCF;
+				INFOPLIST_FILE = manageMyMoney/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = temiedani.manageMyMoney;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6B66AFEC2577C1230040A813 /* Build configuration list for PBXProject "manageMyMoney" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B66B0062577C1300040A813 /* Debug */,
+				6B66B0072577C1300040A813 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6B66B0082577C1300040A813 /* Build configuration list for PBXNativeTarget "manageMyMoney" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6B66B0092577C1300040A813 /* Debug */,
+				6B66B00A2577C1300040A813 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		6B66B0102577EED20040A813 /* shopsModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				6B66B0112577EED20040A813 /* shopModel.xcdatamodel */,
+			);
+			currentVersion = 6B66B0112577EED20040A813 /* shopModel.xcdatamodel */;
+			path = shopsModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 6B66AFE92577C1230040A813 /* Project object */;
+}

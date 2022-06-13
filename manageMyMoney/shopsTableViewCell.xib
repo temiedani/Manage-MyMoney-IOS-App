@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="shopsTableViewCell" rowHeight="125" id="KGk-i7-Jjw" customClass="shopsTableViewCell" customModule="manageMyMoney" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="540" height="125"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="540" height="125"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <imageView clipsSubviews="YES" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="wal-rG-gMu">
+                        <rect key="frame" x="10" y="10" width="100" height="100"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="100" id="4Bb-xj-PPl"/>
+                            <constraint firstAttribute="height" constant="100" id="l9s-8Y-UoX"/>
+                        </constraints>
+                    </imageView>
+                    <activityIndicatorView opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" style="medium" translatesAutoresizingMaskIntoConstraints="NO" id="R7V-TC-rEb">
+                        <rect key="frame" x="50" y="50" width="20" height="20"/>
+                    </activityIndicatorView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Shop name" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vVW-LC-JS4">
+                        <rect key="frame" x="120" y="10" width="410" height="41"/>
+                        <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Total amount" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ucg-ZB-3Sl">
+                        <rect key="frame" x="120" y="61" width="410" height="20.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="XXk-8Z-I9d">
+                        <rect key="frame" x="10" y="10" width="100" height="100"/>
+                        <constraints>
+                            <constraint firstAttribute="width" constant="100" id="6Py-PL-vjD"/>
+                            <constraint firstAttribute="height" constant="100" id="Oep-xP-DWP"/>
+                        </constraints>
+                    </button>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Last amount and date" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="JcS-8X-TQ1">
+                        <rect key="frame" x="120" y="91.5" width="410" height="20.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="wal-rG-gMu" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="29Z-WX-fap"/>
+                    <constraint firstAttribute="bottom" secondItem="wal-rG-gMu" secondAttribute="bottom" constant="10" id="2mk-DC-pwA"/>
+                    <constraint firstItem="JcS-8X-TQ1" firstAttribute="leading" secondItem="wal-rG-gMu" secondAttribute="trailing" constant="10" id="4k1-BF-tvR"/>
+                    <constraint firstAttribute="bottom" secondItem="XXk-8Z-I9d" secondAttribute="bottom" constant="20" symbolic="YES" id="6FF-b8-oFA"/>
+                    <constraint firstItem="vVW-LC-JS4" firstAttribute="leading" secondItem="wal-rG-gMu" secondAttribute="trailing" constant="10" id="8Tt-8t-Zwn"/>
+                    <constraint firstItem="vVW-LC-JS4" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="AoK-gV-1gA"/>
+                    <constraint firstAttribute="trailing" secondItem="vVW-LC-JS4" secondAttribute="trailing" constant="10" id="BHI-ep-BVX"/>
+                    <constraint firstItem="XXk-8Z-I9d" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="GeG-Kx-W0v"/>
+                    <constraint firstItem="JcS-8X-TQ1" firstAttribute="top" secondItem="ucg-ZB-3Sl" secondAttribute="bottom" constant="10" id="M0r-sv-VTS"/>
+                    <constraint firstAttribute="trailing" secondItem="ucg-ZB-3Sl" secondAttribute="trailing" constant="10" id="OdR-rH-ED2"/>
+                    <constraint firstAttribute="trailing" secondItem="JcS-8X-TQ1" secondAttribute="trailing" constant="10" id="PY4-t9-9Zb"/>
+                    <constraint firstItem="wal-rG-gMu" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="Qt2-by-U4g"/>
+                    <constraint firstAttribute="bottom" secondItem="JcS-8X-TQ1" secondAttribute="bottom" constant="10" id="Sel-Vb-6ER"/>
+                    <constraint firstItem="R7V-TC-rEb" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="50" id="Twf-hV-Hct"/>
+                    <constraint firstItem="ucg-ZB-3Sl" firstAttribute="leading" secondItem="wal-rG-gMu" secondAttribute="trailing" constant="10" id="Uxv-KZ-WRq"/>
+                    <constraint firstItem="R7V-TC-rEb" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="50" id="gC6-hX-22z"/>
+                    <constraint firstItem="XXk-8Z-I9d" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="p1V-PQ-BHw"/>
+                    <constraint firstItem="ucg-ZB-3Sl" firstAttribute="top" secondItem="vVW-LC-JS4" secondAttribute="bottom" constant="10" id="vo8-Ep-6vf"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="activityIndicator" destination="R7V-TC-rEb" id="WKR-EN-iBV"/>
+                <outlet property="imageButton" destination="XXk-8Z-I9d" id="SCS-20-ERh"/>
+                <outlet property="lastAmount" destination="JcS-8X-TQ1" id="0Ha-ED-ZRH"/>
+                <outlet property="myShopImage" destination="wal-rG-gMu" id="fP6-5R-Dhn"/>
+                <outlet property="myShopName" destination="vVW-LC-JS4" id="dOZ-Ch-bLz"/>
+                <outlet property="totalAmount" destination="ucg-ZB-3Sl" id="0I4-Es-RbU"/>
+            </connections>
+            <point key="canvasLocation" x="291.304347826087" y="108.81696428571428"/>
+        </tableViewCell>
+    </objects>
+</document>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina6_0" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="390" height="844"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="RNS-df-kOK">
+                                <rect key="frame" x="34" y="204" width="322" height="436"/>
+                                <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="Jae-gG-3Je">
+                                    <rect key="frame" x="0.0" y="0.0" width="322" height="436"/>
+                                    <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                    <subviews>
+                                        <visualEffectView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9id-XP-1iW">
+                                            <rect key="frame" x="0.0" y="0.0" width="70" height="308"/>
+                                            <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" insetsLayoutMarginsFromSafeArea="NO" id="Okf-qB-RLZ">
+                                                <rect key="frame" x="0.0" y="0.0" width="70" height="308"/>
+                                                <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                                            </view>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="120" id="U5M-xX-W3X"/>
+                                            </constraints>
+                                            <vibrancyEffect>
+                                                <blurEffect style="regular"/>
+                                            </vibrancyEffect>
+                                        </visualEffectView>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ajman Beach Zone Expenses Tracker" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="1p2-0p-dkh">
+                                            <rect key="frame" x="7" y="79" width="308" height="278"/>
+                                            <fontDescription key="fontDescription" type="italicSystem" pointSize="27"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="1p2-0p-dkh" firstAttribute="centerY" secondItem="Jae-gG-3Je" secondAttribute="centerY" id="06f-hf-j3l"/>
+                                        <constraint firstAttribute="trailing" secondItem="1p2-0p-dkh" secondAttribute="trailing" constant="7" id="BWD-Pc-rdE"/>
+                                        <constraint firstItem="1p2-0p-dkh" firstAttribute="leading" secondItem="9id-XP-1iW" secondAttribute="trailing" constant="7" id="NJE-Rx-lOF"/>
+                                        <constraint firstItem="9id-XP-1iW" firstAttribute="top" secondItem="Jae-gG-3Je" secondAttribute="top" id="VhU-j2-YFr"/>
+                                        <constraint firstItem="9id-XP-1iW" firstAttribute="leading" secondItem="Jae-gG-3Je" secondAttribute="leading" id="is1-MH-FHX"/>
+                                        <constraint firstItem="1p2-0p-dkh" firstAttribute="centerX" secondItem="Jae-gG-3Je" secondAttribute="centerX" id="l9x-Ue-uNh"/>
+                                        <constraint firstItem="1p2-0p-dkh" firstAttribute="top" secondItem="Jae-gG-3Je" secondAttribute="top" constant="79" id="yxX-FR-AQU"/>
+                                    </constraints>
+                                </view>
+                                <blurEffect style="regular"/>
+                            </visualEffectView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
+                        <constraints>
+                            <constraint firstItem="RNS-df-kOK" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="34" id="BRH-zO-oLf"/>
+                            <constraint firstItem="RNS-df-kOK" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="anq-t0-dMq"/>
+                            <constraint firstItem="RNS-df-kOK" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="160" id="xFA-xK-o8X"/>
+                            <constraint firstItem="RNS-df-kOK" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="z55-Iw-8RS"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="50.625" y="375"/>
+        </scene>
+    </scenes>
+    <resources>
+        <systemColor name="opaqueSeparatorColor">
+            <color red="0.77647058823529413" green="0.77647058823529413" blue="0.78431372549019607" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>
